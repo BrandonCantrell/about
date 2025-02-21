@@ -1,8 +1,8 @@
 /* Resume Page Specific Styles */
 .resume-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem;
+    margin-left: var(--nav-width);
+    padding: 2rem;
+    width: calc(100% - var(--nav-width));
 }
 
 .experience-block {
